@@ -23,7 +23,13 @@ localStorage — Persistencia del tema entre sesiones
  📬 Formulario de contacto funcional
  🌍 Soporte multiidioma (ES / EN)
  ☁️ Despliegue en Vercel con dominio personalizado
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ## Video 
 
+https://github.com/user-attachments/assets/2eb5a697-9e15-497d-b7f8-360c3cc7d5dc
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ## 🖼️ Preview
 
 ### 🌙 Dark theme
