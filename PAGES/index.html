@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Deivi Narváez System Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../image/imagen deivi.jpeg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../STYLES/styles.css">
+</head>
+<body>
+
+<div class="blob-container">
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"><span class="dot"></span>Deivi Narváez</div>
+  <div class="nav-links">
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#skills">Skills</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+  <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">🌙 Dark</button>
+</nav>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-content fade-up">
+    <div class="hero-badge">Disponible para trabajar · Colombia</div>
+    <h1>
+      Hola, soy<br>
+      <span class="name-highlight"><span id="typewriter-name"></span><span class="cursor-blink" id="cursor1">|</span></span>
+      <span class="line2"><span id="typewriter-role"></span><span class="cursor-blink" id="cursor2" style="display:none">|</span></span>
+    </h1>
+    <p>Estudiante de Ingeniería de Sistemas en CIDE Bogotá. Apasionado por el desarrollo full stack, análisis de datos, ciberseguridad y redes. Construyendo el futuro digital de Colombia 🇨🇴</p>
+    <div class="hero-ctas">
+      <a href="#proyectos" class="btn-primary">🚀 Ver proyectos</a>
+      <a href="#contacto" class="btn-secondary">📬 Contactarme</a>
+    </div>
+  </div>
+  <div class="avatar-wrap fade-up" style="transition-delay:0.2s">
+    <div class="avatar-cartoon"><img src="../image/imagen deivi.jpeg" alt="Deivi Narváez" style="width:100%;height:100%;object-fit:cover;object-position:center center; background:#fff;"></div>
+    <div class="avatar-badge-float">Prox. Ingeniero - sistemas</div>
+    <div class="avatar-badge-float2">DEMO</div>
+  </div>
+</section>
+
+<div class="deco-line"></div>
+
+<!-- SOBRE MÍ -->
+<section id="sobre-mi">
+  <div class="sec-label">// 01 — Sobre mí</div>
+  <div class="sec-title fade-up">El dev detrás del código</div>
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <p>Soy estudiante de Ingeniería de Sistemas en 5to semestre en <strong>CIDE</strong> (Corporación Internacional para el Desarrollo Educativo), Bogotá. Mi formación abarca desarrollo de software, redes, ciberseguridad, análisis de datos y metodología de investigación.</p>
+      <p>Me apasiona construir soluciones reales: desde interfaces web con React hasta análisis de datos con Power BI. Siempre busco aprender nuevas tecnologías y aplicarlas en proyectos concretos que aporten valor.</p>
+      <p>Mi objetivo es entrar al mercado laboral colombiano como desarrollador full stack o analista de datos, con un portafolio sólido en GitHub y Vercel. ☁️</p>
+    </div>
+    <div class="stats-grid fade-up" style="transition-delay:0.15s">
+      <div class="stat-card"><div class="num">5to</div><div class="label">Semestre en curso</div></div>
+      <div class="stat-card"><div class="num">10+</div><div class="label">Tecnologías dominadas</div></div>
+      <div class="stat-card"><div class="num">6+</div><div class="label">Proyectos académicos</div></div>
+      <div class="stat-card"><div class="num">🇨🇴</div><div class="label">Bogotá, Colombia</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="deco-line"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-label">// 02 — Habilidades</div>
+  <div class="sec-title fade-up">Mi stack técnico</div>
+  <p class="sec-sub fade-up">Tecnologías y áreas en las que trabajo actualmente y sigo profundizando.</p>
+  <div class="skills-grid">
+    <div class="skill-card fade-up">
+      <span class="skill-icon">⚛️</span>
+      <h3>Frontend Development</h3>
+      <p>Construcción de interfaces modernas, responsivas y accesibles con enfoque en UX/UI.</p>
+      <div class="skill-tags">
+        <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">Tailwind</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.05s">
+      <span class="skill-icon">🖥️</span>
+      <h3>Backend Development</h3>
+      <p>APIs REST, lógica de negocio y bases de datos. Enfocado en Node.js y Python.</p>
+      <div class="skill-tags">
+        <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Python</span><span class="tag">Django</span><span class="tag">REST APIs</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.1s">
+      <span class="skill-icon">📊</span>
+      <h3>Análisis de Datos</h3>
+      <p>Visualización e interpretación de datos para la toma de decisiones empresariales.</p>
+      <div class="skill-tags">
+        <span class="tag">Power BI</span><span class="tag">Looker Studio</span><span class="tag">Excel</span><span class="tag">Python</span><span class="tag">SQL</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.15s">
+      <span class="skill-icon">🌐</span>
+      <h3>Redes & Infraestructura</h3>
+      <p>Configuración de redes empresariales, protocolos de enrutamiento y VPNs.</p>
+      <div class="skill-tags">
+        <span class="tag">VLAN</span><span class="tag">OSPF</span><span class="tag">VPN</span><span class="tag">QoS</span><span class="tag">Cisco</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.2s">
+      <span class="skill-icon">🔐</span>
+      <h3>Ciberseguridad</h3>
+      <p>Fundamentos de seguridad en software, S-SDLC y marcos de ciberseguridad.</p>
+      <div class="skill-tags">
+        <span class="tag">S-SDLC</span><span class="tag">OWASP</span><span class="tag">MCP Security</span><span class="tag">Agile Sec</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.25s">
+      <span class="skill-icon">☁️</span>
+      <h3>Cloud & DevOps</h3>
+      <p>Despliegue de aplicaciones web modernas con control de versiones y CI básico.</p>
+      <div class="skill-tags">
+        <span class="tag">GitHub</span><span class="tag">Vercel</span><span class="tag">Git</span><span class="tag">Linux</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.3s">
+  <span class="skill-icon">🤖</span>
+  <h3>Automatización</h3>
+  <p>Automatización de tareas, flujos de trabajo y procesos repetitivos para aumentar productividad y eficiencia.</p>
+  <div class="skill-tags">
+    <span class="tag">Python Scripts</span><span class="tag">n8n</span><span class="tag">Make</span><span class="tag">Selenium</span><span class="tag">Shell</span><span class="tag">MCP</span><span class="tag">MCP Servers</span><span class="tag">OttoKit</span><span class="tag">Webhooks</span><span class="tag">Claude API</span>
+  </div>
+</div>
+  </div>
+</section>
+
+<div class="deco-line"></div>
+
+<!-- PROYECTOS -->
+<section id="proyectos">
+  <div class="sec-label">// 03 — Proyectos</div>
+  <div class="sec-title fade-up">Lo que he construido</div>
+  <p class="sec-sub fade-up">Proyectos académicos, freelance y personales que demuestran mis habilidades.</p>
+  <div class="projects-grid">
+
+    <div class="project-card fade-up">
+      <div class="project-thumb grad-1">🌐</div>
+      <div class="project-body">
+        <div class="project-category">Diseño Web · Freelance</div>
+        <h3>SOVE Control Ambiental</h3>
+        <p>Rediseño de sitio web empresarial con estética industrial dark/técnica. Interfaz moderna para empresa de control ambiental y fumigación.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">Dark Theme</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link primary">🚀 Ver demo</a>
+          <a href="#" class="project-link">📁 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.08s">
+      <div class="project-thumb grad-2">🔬</div>
+      <div class="project-body">
+        <div class="project-category">Investigación · Académico</div>
+        <h3>Investigación: Model Context Protocol</h3>
+        <p>Documento académico completo sobre MCP: arquitectura, vulnerabilidades de seguridad, métricas del ecosistema y comparativas con protocolos alternativos.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">MCP</span><span class="tag">Ciberseguridad</span><span class="tag">IEEE</span><span class="tag">APA 7</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link primary">📄 Ver documento</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.12s">
+      <div class="project-thumb grad-3">🎨</div>
+      <div class="project-body">
+        <div class="project-category">Branding · Diseño</div>
+        <h3>Logo FumigaTech</h3>
+        <p>Identidad visual para empresa de fumigación. Diseño de logo con concepto técnico-profesional moderno, iconografía limpia y versátil.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">Diseño Gráfico</span><span class="tag">Branding</span><span class="tag">SVG</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link primary">🖼️ Ver diseño</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.16s">
+      <div class="project-thumb grad-4">📊</div>
+      <div class="project-body">
+        <div class="project-category">Análisis de Datos · Académico</div>
+        <h3>Dashboard de Ventas — Excel</h3>
+        <p>Ejercicio de análisis de datos con formato condicional, tablas dinámicas y visualizaciones en Excel. Enfocado en KPIs de ventas empresariales.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">Excel</span><span class="tag">Power BI</span><span class="tag">Tablas Dinámicas</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link primary">📈 Ver proyecto</a>
+          <a href="#" class="project-link">📁 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.2s">
+  <div class="project-thumb grad-5">🔌</div>
+  <div class="project-body">
+    <div class="project-category">Backend · API REST</div>
+    <h3>API REST de Gestión de Tareas</h3>
+    <p>API completa con autenticación JWT, CRUD de tareas, roles de usuario y documentación con Swagger. Desplegada en Railway con base de datos PostgreSQL.</p>
+    <div class="skill-tags" style="margin-top:12px">
+      <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">JWT</span><span class="tag">PostgreSQL</span><span class="tag">Swagger</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="project-link primary">📡 Ver API</a>
+      <a href="#" class="project-link">📁 GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card fade-up" style="transition-delay:0.24s">
+  <div class="project-thumb grad-6">🧠</div>
+  <div class="project-body">
+    <div class="project-category">IA · Automatización</div>
+    <h3>Bot de Automatización con Claude API</h3>
+    <p>Bot inteligente integrado con la API de Claude y OttoKit que automatiza respuestas, gestiona tareas en Google Sheets y envía notificaciones por Gmail de forma autónoma.</p>
+    <div class="skill-tags" style="margin-top:12px">
+      <span class="tag">Claude API</span><span class="tag">OttoKit</span><span class="tag">MCP</span><span class="tag">Google Sheets</span><span class="tag">Gmail</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="project-link primary">🤖 Ver demo</a>
+      <a href="#" class="project-link">📁 GitHub</a>
+    </div>
+  </div>
+</div>
+
+    <!-- PROYECTOS A FUTURO — badge especial -->
+    <div class="project-card fade-up project-upcoming" style="transition-delay:0.28s">
+      <div class="project-thumb grad-1">
+        🤖
+        <span class="upcoming-badge">En desarrollo</span>
+      </div>
+      <div class="project-body">
+        <div class="project-category">Automatización · IA</div>
+        <h3>Agente IA con MCP</h3>
+        <p>Agente inteligente construido sobre Model Context Protocol que conecta herramientas externas como Gmail, Google Calendar y Sheets para automatizar flujos de trabajo.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">MCP</span><span class="tag">Claude API</span><span class="tag">OttoKit</span><span class="tag">Node.js</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">📁 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up project-upcoming" style="transition-delay:0.32s">
+      <div class="project-thumb grad-2">
+        📊
+        <span class="upcoming-badge">En desarrollo</span>
+      </div>
+      <div class="project-body">
+        <div class="project-category">Data Analytics · Full Stack</div>
+        <h3>Dashboard Power BI + Web</h3>
+        <p>Plataforma web que embebe reportes de Power BI con autenticación de usuarios, filtros dinámicos y exportación de datos para empresas colombianas.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">Power BI</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">SQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">📁 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up project-upcoming" style="transition-delay:0.36s">
+      <div class="project-thumb grad-3">
+        🛒
+        <span class="upcoming-badge">Próximamente</span>
+      </div>
+      <div class="project-body">
+        <div class="project-category">Full Stack · E-commerce</div>
+        <h3>Tienda Online con Next.js</h3>
+        <p>E-commerce completo con carrito de compras, pasarela de pagos, panel de administración y optimización SEO. Stack moderno orientado al mercado colombiano.</p>
+        <div class="skill-tags" style="margin-top:12px">
+          <span class="tag">Next.js</span><span class="tag">Tailwind</span><span class="tag">Stripe</span><span class="tag">PostgreSQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">📁 GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTÓN VER MÁS EN GITHUB -->
+  <div class="github-cta fade-up">
+    <div class="github-cta-inner">
+      <span class="github-cta-icon">🐙</span>
+      <div>
+        <p class="github-cta-title">¿Quieres ver más proyectos?</p>
+        <p class="github-cta-sub">Visita mi GitHub para explorar todos mis repositorios, experimentos y contribuciones.</p>
+      </div>
+      <a href="https://github.com/deivi" target="_blank" class="btn-github">
+        Ver todos en GitHub
+        <span class="btn-github-arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<div class="deco-line"></div>
+
+<!-- EXPERIENCIA -->
+<section id="experiencia">
+  <div class="sec-label">// 04 — Experiencia & Formación</div>
+  <div class="sec-title fade-up">Mi trayectoria</div>
+  <p class="sec-sub fade-up">Recorrido académico y profesional.</p>
+  <div class="timeline fade-up">
+    <div class="timeline-item">
+      <div class="timeline-meta">2023 — Actualidad</div>
+      <h3>Ingeniería de Sistemas · 5to Semestre</h3>
+      <div class="org">CIDE — Corporación Internacional para el Desarrollo Educativo · Bogotá, Colombia</div>
+      <p>Formación integral en desarrollo de software, redes, ciberseguridad, análisis de datos y metodología de investigación. Proyectos académicos en múltiples áreas tecnológicas.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-meta">2024</div>
+      <h3>Diseño Web Freelance</h3>
+      <div class="org">SOVE Control Ambiental · Proyecto Independiente</div>
+      <p>Rediseño completo del sitio web corporativo con estética técnica/industrial. Implementación de diseño responsivo y moderno.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-meta">2024 — En proceso</div>
+      <h3>Aprendiz SENA · Explorando</h3>
+      <div class="org">Mercado Laboral Colombiano · Tech Roles</div>
+      <p>Exploración activa de oportunidades en análisis de datos (Power BI, Excel), soporte IT y desarrollo full stack. Preparación de entrevistas y portafolio.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-meta">Continuo</div>
+      <h3>Autoaprendizaje & Portafolio</h3>
+      <div class="org">GitHub · Vercel · Proyectos personales</div>
+      <p>Construcción activa de portafolio técnico. Aprendizaje de React, Node.js, Python/Django y tecnologías cloud para acceso al mercado laboral.</p>
+    </div>
+  </div>
+</section>
+
+<div class="deco-line"></div>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="sec-label">// 05 — Contacto</div>
+  <div class="sec-title fade-up">¿Hablamos?</div>
+  <div class="contact-wrap fade-up">
+    <div>
+      <h2>¡Estoy disponible para proyectos y oportunidades! 🚀</h2>
+      <p>Si buscas un desarrollador comprometido, curioso y con ganas de aportar valor al equipo, escríbeme. Estoy en Bogotá y abierto a trabajo remoto.</p>
+      <a href="https://wa.me/573042004948?text=Hola%2C%20me%20interesas" 
+   target="_blank" 
+   style="text-decoration: none;">
+  <button style="
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  ">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+         width="20" height="20" alt="WhatsApp">
+    Contactactame por WhatsApp
+  </button>
+</a>
+    </div>
+    <div class="contact-links">
+      <a href="https://github.com/deivi43" class="contact-link" target="_blank">
+        <span class="icon">🐙</span>
+        <span>GitHub<span class="cl-sub">github.com/deivi43</span></span>
+      </a>
+      <a href="https://www.linkedin.com/in/deivi-stick-narvaez-tique-241927273/" class="contact-link" target="_blank">
+        <span class="icon">💼</span>
+        <span>LinkedIn<span class="cl-sub">linkedin.com/in/deivi-stick-narvaez-tique-241927273</span></span>
+      </a>
+      <a href="mailto:narvaezdeivi45@gmail.com" class="contact-link">
+        <span class="icon">✉️</span>
+        <span>Email<span class="cl-sub">narvaezdeivi45@gmail.com</span></span>
+      </a>
+      <a href="#" class="contact-link">
+        <span class="icon">📍</span>
+        <span>Ubicación<span class="cl-sub">Bogotá, Colombia 🇨🇴</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>Diseñado & construido por <span>Deivi Narváez</span> · Ingeniero de Sistemas · CIDE Bogotá · <span>2026</span></p>
+  <p style="margin-top:6px; opacity:0.5">Hecho con ☕(cafesito), (trabajo) 💻 y muchas ganas de aprender</p>
+</footer>
+
+<script src="../SCRIPTS/script.js"></script>
+</html>

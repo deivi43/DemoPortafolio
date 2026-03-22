@@ -1,0 +1,61 @@
+
+¡Hola! Bienvenido a la demo de mi portafolio personal.
+
+Este repositorio es una muestra de lo que será mi espacio de aprendizaje y colaboración.
+El proyecto está siendo migrado a **Angular** como parte de mi evolución técnica.
+
+## ✅ ¿Qué funciona en esta demo?
+
+- 🔗 Botón de contacto por **WhatsApp**
+- 🌐 Enlaces directos a mis **redes sociales y cuentas de usuario**
+- 🌙 Cambio de tema **oscuro / claro**
+- ✨ Animaciones y efecto **typewriter**
+
+## 🎯 Propósito de este repositorio
+
+Mi objetivo es compartir mi aprendizaje de forma abierta, apoyar a nuevos programadores
+que estén comenzando su camino en la tecnología y recibir sugerencias de la comunidad
+para seguir creciendo juntos.
+
+## 📌 Estado del proyecto
+
+Mi GitHub es relativamente nuevo, por lo que iré subiendo mis proyectos de forma
+progresiva conforme organice mi tiempo y estructura de carpetas. ¡Próximamente
+habrá mucho más contenido!
+
+## 🤝 ¿Quieres colaborar o dar feedback?
+
+Cualquier sugerencia, mejora o mensaje es bienvenido. Puedes abrir un **Issue**,
+hacer un **Pull Request** o contactarme directamente.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Hello! Welcome to the demo version of my personal portfolio.
+
+This repository is a preview of what will become my learning and collaboration space.
+The project is currently being migrated to **Angular** as part of my technical growth.
+
+## ✅ What works in this demo?
+
+- 🔗 **WhatsApp** contact button
+- 🌐 Direct links to my **social media and user accounts**
+- 🌙 **Dark / Light** theme toggle
+- ✨ Animations and **typewriter** effect
+
+## 🎯 Purpose of this repository
+
+My goal is to share my learning journey openly, support new developers who are
+just starting out in tech, and receive feedback from the community so we can
+grow and learn together.
+
+## 📌 Project status
+
+My GitHub is relatively new, so I will be uploading my projects progressively
+as I organise my schedule and folder structure. Much more content coming soon!
+
+## 🤝 Want to collaborate or share feedback?
+
+Any suggestions, improvements or messages are more than welcome. Feel free to open
+an **Issue**, submit a **Pull Request**, or contact me directly.
+
